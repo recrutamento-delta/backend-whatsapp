@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
   res.send("Backend rodando 🚀");
 });
 
-// NOVA ROTA
+// rota envio
 app.post("/enviar", (req, res) => {
   const { nome, telefone, mensagem } = req.body;
 
